@@ -1,0 +1,13 @@
+{
+  "name": "tmp.io",
+  "scripts": {
+    "bin": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@azure/event-hubs": "~2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~3.4.5",
+    "ts-node": "~8.2.0"
+  }
+}
