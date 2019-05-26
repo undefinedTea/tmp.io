@@ -1,7 +1,7 @@
 {
   "name": "tmp.io",
   "scripts": {
-    "bin": "ts-node index.ts"
+    "bin": "ts-node --require dotenv/config index.ts"
   },
   "dependencies": {
     "@azure/event-hubs": "~2.0.0"
